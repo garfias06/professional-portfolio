@@ -76,10 +76,40 @@ main{
     align-content: stretch;
 }
 
-.caja1, .caja2, .caja3{
+.section1, .section2, .section3{
     display: flex;
 }
 
+.images{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.surf, .led, .calc, .pastel, .run{
+border:aqua solid 5px;
+padding:10px;
+margin:10px;
+background-size: cover;
+width:550px;
+height: 150px;
+}
+.surf{
+    background-image: url(./images/waves1.jpg);
+    width: 1170px;
+    height: 300px;
+}
+.led{
+    background-image: url(./images/wallpaperflare.com_wallpaper\ \(2\).jpg); 
+}
+.calc{
+    background-image: url(./images/calculator.jpg);   
+}
+.pastel{
+    background-image: url(./images/puzzle.jpg); 
+}
+.run{
+    background-image: url(./images/codeimg.jpg);
+}
 
 /* Footer */
 footer{
