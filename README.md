@@ -3,16 +3,19 @@
 # PROFESIONAL PORTFOLIO: ULISES GARFIAS
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This portfolio was built to show potential employers some of the developer's work learned throughout the bootcamp so the strongest skills can be highlighted to help the developer achieve his career goals and contribute to the tech industry.
 
 ## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-![alt text](assets/images/screenshot.png)
+- The following link images attached to this section show different displays of the screen when it goes full screen and when the screen is reduced to 768px.
+
+![Full-screen-screenshot](./assets/images/full-screen.jpg)
+
+![Short-screen-screenshot](./assets/images/short-screen.jpg)
+
+- When any of the options displayed on the navigation bar is clicked is gonna take the user to a certain section so the topic can be readable without scrolling down.
+
+- On the "Skills" section the user can click on different images which are shortcuts to past projects created by the author of this portfolio.
+
 ## Credits
 - Color Pallete:
 https://coolors.co/fffffa-515052-616062-6f6e70-7c7b7d-888789-939294-9d9c9e-a6a5a7-aeadaf
