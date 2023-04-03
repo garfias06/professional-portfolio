@@ -5,6 +5,8 @@
 
 This portfolio was built to show potential employers some of the developer's work learned throughout the bootcamp so the strongest skills can be highlighted to help the developer achieve his career goals and contribute to the tech industry.
 
+URL: https://garfias06.github.io/professional-portfolio/
+
 ## Usage
 - The following link images attached to this section show different displays of the screen when it goes full screen and when the screen is reduced to 768px.
 
