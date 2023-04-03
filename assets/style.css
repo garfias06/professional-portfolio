@@ -7,22 +7,23 @@
     --maincolor:#49494B;
     --red: #810612;
     --shadow: 0px 3px 5px black;
+    --white: white;
 }
 /* Navigation bar styling */
 .nav-bar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: var(--maincolor);
-    padding: 10px;
+    padding: 5px;
 }
 #name{
-    color: white;
+    color: var(--white);
     float: left;
     text-align:center;
     box-sizing: border-box;
     box-shadow: var(--shadow);
     border-radius: 15px;
-    width: 400px;
+    width: 250px;
     height: 50px;
     background-color: var(--red);
 }
@@ -35,7 +36,7 @@
     padding: 10px;
 }
 .info-links a{
-color:white;
+color:var(--white);
 text-decoration: none;
 font-size: 20px;
 border-bottom: var(--red) solid 5px;
@@ -45,31 +46,19 @@ border-bottom: var(--red) solid 5px;
 header{
     background-image: url(./images/wood.png);
     width: 100%;
-    height: 200px;
+    height: 230px;
     background-size: cover;
 }
-h2{
-    position: relative;
-    left:20%;
-    top: 140px;
-    box-sizing: border-box;
-    border-radius: 15px;
-    width: 300px;
-    height: 50px;
-    background-color: var(--red);
-    text-align: center;
-    color: white;
-}
+
 figure img{
     max-width: 100%;
     max-height: 100%;
 }
 .profile{
-    width: 180px;
-    height: 180px;
-    position: relative;
-    left: 10%;
-    bottom: 45px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-left: 19%;
 }
 .profile img{
     border: var(--red) solid 5px;
@@ -118,7 +107,7 @@ display: flex;
 flex-wrap: wrap;
 }
 .images a{
-    text-decoration: none;
+text-decoration: none;
 }
 
 .surf, .led, .calc, .pastel, .run{
@@ -144,25 +133,24 @@ box-shadow: 0 10px 40px;
 .calc:active,
 .pastel:active,
 .run:active{
-box-shadow: 0 0 20px white inset;
+box-shadow: 0 0 20px var(--white) inset;
 width:540px;
 height:140px;
 }
 .surf:active{
- box-shadow: 0 0 20px white inset;
+ box-shadow: 0 0 20px var(--white) inset;
  width:1155px;
  height:290px;
 }
 .surf{
     background-image: url(./images/waves2.jpg);
-    flex-shrink: 1;
 }
 h4{
     box-sizing:border-box;
     background-color: var(--red);
     width:150px;
     height:50px;
-    color:white;
+    color:var(--white);
     font-size: 20px;
 }
 
@@ -202,7 +190,7 @@ padding:10px;
 /* Footer */
 footer{
     background-color: var(--maincolor);
-    color: white;
+    color: var(--white);
     text-align: center;
     font-size: 20px;
     padding: 20px;
@@ -211,18 +199,29 @@ footer{
 /* Responsive design */
 
 @media screen and (max-width:768px) {
-   .images{
-    flex-direction: column;
-   }
    header, .nav-bar{
     width: 100%;
    }
-}
-@media screen and (min-width:769px){
-.images{
-    flex-direction: row;
-}
+   .images{
+    flex: 0 0 50%;
+    max-width: 50%;
+   }
+   .images:last-child {
+    flex-shrink: 1;
+  }
+  .contact-info{
+    flex-direction: column;
+  }
+  h1{
+    font-size: 20px;
+  }
+
 }
 
+@media screen and (min-width:769px){
+    .images{
+        flex-direction: row;
+    }
+    }
 
     
