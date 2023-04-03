@@ -208,23 +208,20 @@ footer{
     padding: 20px;
 }
 
-/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+/* Responsive design */
 
-@media screen and (min-width:768px) {
-   .section2{
-    display: flex;
-    flex-direction: row;
+@media screen and (max-width:768px) {
+   .images{
+    flex-direction: column;
    }
-
-
    header, .nav-bar{
     width: 100%;
    }
 }
-@media screen and (max-width:992px){
-    .header, .nav-bar{
-        width: 25%;
-    }
+@media screen and (min-width:769px){
+.images{
+    flex-direction: row;
+}
 }
 
 
