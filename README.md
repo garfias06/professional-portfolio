@@ -10,9 +10,11 @@ URL: https://garfias06.github.io/professional-portfolio/
 ## Usage
 - The following link images attached to this section show different displays of the screen when it goes full screen and when the screen is reduced to 768px.
 
-![Full-screen-screenshot](./assets/images/full-screen.jpg)
+![Full-screen-768px-Tablet](./assets/images/Tablet768px.jpg)
 
-![Short-screen-screenshot](./assets/images/short-screen.jpg)
+![Full-screen-1024px-Laptop](./assets/images/Laptop1024px.jpg)
+
+![Full-screen-1440px-Laptop](./assets/images/LaptopL1440PX.jpg)
 
 - When any of the options displayed on the navigation bar is clicked is gonna take the user to a certain section so the topic can be readable without scrolling down.
 
